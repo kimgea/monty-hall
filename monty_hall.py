@@ -13,8 +13,6 @@ class Finder(enum.Enum):
 class MontyHallBase(metaclass=abc.ABCMeta):
 
     def __init__(self):
-        #self._goat = 0
-        #self._car = 1
         self._nr_doors = 3
         self._opened_door = -1
 
